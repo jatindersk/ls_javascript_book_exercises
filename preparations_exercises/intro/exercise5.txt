@@ -1,0 +1,4 @@
+console.log('5' + 10);
+
+Ans: This will always output '510' instead of 15 because of 'Implicit Type Coercion'. Javascript converts or coerces the number into a string and then concatinates them.
+This happens only incase of a plus(+) operator and when either of the operand is a string.
